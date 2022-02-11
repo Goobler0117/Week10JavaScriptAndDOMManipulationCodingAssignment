@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixtapes LLC.&copy;</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container" style="background-color:rgb(0, 89, 255)">
+    <h1 class="text-center" style="font-size: 75px; color: tomato;"><b>Make A Mixtape!</b></h1>
+
+    <br>
+
+    <div class="card text-center" style="background-color: rgb(0, 255, 106); color: rgb(255, 0, 242); font-size: 40px; 
+    font-family: cursive; font-weight: bold;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-mixtape-name">Name of New Mixtape:</label>
+                        <input type="text" class="form-control" id="new-mixtape-name">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="new-mixtape" class="btn btn-dark form-control" style="font-family:Verdana, Geneva,
+                 Tahoma, sans-serif; font-size:30px; color:gold">Create</button>
+            </div>
+        </div>
+    </div><br>
+
+    <div id="mixtapes" style="color: hotpink;">
+
+    </div>
+
+
+    <script src="DOMManipulation.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
